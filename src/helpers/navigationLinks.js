@@ -17,6 +17,6 @@ export const navigationLinks = [
     },
     {
         home: 'CONTACT',
-        ref: '#constac'
+        ref: '#contact'
     }
 ]
