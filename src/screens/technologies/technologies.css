@@ -1,3 +1,11 @@
+.custom-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 5px; /* Ajusta el margen según sea necesario */
+}
+
+
 .technologies_container{
   background-color: var(--light-color);
   color: var(--nav-color);
@@ -36,7 +44,10 @@
   border-radius: 50%;
 }
 
-.tech__card:hover {
+.tech_card:hover {
     background-color: var(--font-color-hover);
     transform: scale(1.05);
   }
+
+
+ 

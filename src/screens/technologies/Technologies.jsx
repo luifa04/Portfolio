@@ -3,11 +3,12 @@ import './technologies.css'
 import DevIcon from "devicon-react-svg";
 import {techs} from '../../helpers/techs'
 
+
 function createTechs(){
   return techs.map((e , idx) =>(
       <div className='tech_card'>
         <DevIcon className='tech_icon' icon={e.icon}/>
-        <span style={{margin: '5px', frontSize:'1.5rem'}}>{e.name}</span>
+        <span style={{margin: '5px', fontSize:'1.5rem'}}>{e.name}</span>
       </div>
   ))
 }

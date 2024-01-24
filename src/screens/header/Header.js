@@ -10,8 +10,8 @@ function Header() {
         strings={[
                     ' ',
                     'a backend developer',
-                    'a data science',
-                    'a basteball player ;)',
+                    'a data scientist',
+                    'a basketball player ;)',
                     ' ',
                     ' ',]}
                     typeSpeed={60}

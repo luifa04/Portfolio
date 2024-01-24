@@ -6,6 +6,8 @@ import AboutMe from './screens/aboutMe/AboutMe'
 import Technologies from './screens/technologies/Technologies';
 import Portfolio from './screens/portfolio/Portfolio';
 import ContactMe from './screens/contactMe/ContactMe';
+import Footer from './screens/footer/Footer';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
       <Technologies />
       <Portfolio />
       <ContactMe />
+      <Footer />
     </div>
   );
 }

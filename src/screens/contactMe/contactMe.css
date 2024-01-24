@@ -1,26 +1,94 @@
-.contactMe_container {
-    background-color: var(--nav-color);
-    color: aliceblue;
-    padding: 1rem;
-  }
+/* contactMe.css */
+
+/*
+.contactSection_container {
+  background-color: var(--nav-color);
+  color: aliceblue;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: space-between;
+  height: 30vh;
+  max-width: 400px;
+  margin: auto;
+  border: 2px solid var(--light-color);
+  border-radius: 35px;
+} */
+
+.contactSection_container{
+  background-color: var(--light-color);
+  color: var(--nav-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.contactSection_intro_buttons {
+  background-color: var(--font-color);
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border-bottom: 5px solid var(--nav-color);
+  transition: all 0.1s;
+}
+
+
+.contactSection_intro {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  max-width: 400px; /* Ajusta el valor según el ancho máximo deseado */
+  margin-left: auto; /* Centra el elemento horizontalmente */
+  margin-right: auto; /* Centra el elemento horizontalmente */
+}
+
+.contactSection_buttons {
+  display: flex;
+  flex-direction:initial;
+  gap: 80px;
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+.contactSection_email_button {
+  background-color: var(--light-color);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid var(--light-color)
+}
+
+.contactSection_email_button:hover {
+  background-color: var(--nav-color-hover);
+  color: var(--light-color);
+}
+
+.contactSection_links {
   
-  .contactMe_data_links {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .contactMe_data_links a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  .contactMe_data_links a:hover {
-    color: var(--light-color);
-  }
-  
-  @media only screen and (max-width: 600px){
-    .contactMe_data_links {
-      flex-direction: column;
-    }
-  }
+  display: flex;
+  gap: 10px;
+  margin-left: auto; /* Mueve los enlaces a la derecha */
+}
+
+.contactSection_links a {
+  background-color: var(--light-color);
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid var(--light-color);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.contactSection_links a:hover {
+  background-color: var(--nav-color-hover);
+  color: var(--light-color);
+}
