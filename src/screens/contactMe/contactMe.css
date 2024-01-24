@@ -33,7 +33,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
+
   border-bottom: 5px solid var(--nav-color);
   transition: all 0.1s;
 }
