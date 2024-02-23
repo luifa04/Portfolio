@@ -20,7 +20,7 @@ function NavigationBar() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setNameIndex((prevIndex) => (prevIndex + 1) % nameOptions.length);
-    }, 3000); // Cambia el tiempo según tus preferencias
+    }, 2000); // Cambia el tiempo según tus preferencias
 
     return () => clearInterval(intervalId);
   }, []);

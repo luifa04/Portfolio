@@ -4,12 +4,9 @@ import './header.css';
 function Header() {
   const [textIndex, setTextIndex] = useState(0);
   const textOptions = [
-    '',
     'a backend developer',
     'a data scientist',
-    'a basketball player ;)',
-    '',
-    '',
+    'a basketball player ;)'
   ];
 
   useEffect(() => {
