@@ -1,0 +1,17 @@
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-color);
+    padding: 10px; /* Añade un espacio interno */
+    color: white; /* Color de texto en blanco */
+}
+
+.footer_container p {
+    margin: 0;
+}
+
+.contactSection_container {
+    margin-bottom: 40px;
+  }

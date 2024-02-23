@@ -1,30 +1,40 @@
-import React from 'react'
-import './contactMe.css'
-import {navigationLinks} from '../../helpers/navigationLinks'
+/* ContactMe.jsx */
 
-function createLink(){
-    return navigationLinks.map((e , idx) =>(
-        <p key={idx}><a href={e.ref}>{e.home}</a></p>
-    ))
-}
+import React from 'react';
+import './contactMe.css';
 
 function ContactMe() {
   return (
-    <div className='contactMe_container' id='contact'>
-        <div className='contactMe_data_links'>
-            <div>
-                <p>Mateo Lopez Michelini</p>
-                <p>mateolopez27.11@gmail.com</p>
-            </div>
-            <div>
-                {createLink()}
+    <div className='contactSection_container' id='contact'>
+      <div>
+        <h1 style={{textAlign: 'center'}}> CONTACT ME</h1>
+      </div>
+      <div className='contactSection_intro_buttons'>
+        <div className='contactSection_intro'>
+            <p>
+            Hello again, if you want to build amazing things or contact me for suggestions or questions, you can send me an email or a direct message on my social networks.
+            </p>
+        </div>
+        <div className='contactSection_buttons'>
+            <button className="contactSection_email_button" onClick={() => window.location.href = 'mailto:mateolopez27.11@gmail.com'}>
+            Message
+            </button>
+            <div className='contactSection_links'>
+            <a href="https://github.com/luifa04" target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>{' '}
+            {' '}
+            <a href="https://www.linkedin.com/in/mateo-lopez-ba06861b3/" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+            </a>
             </div>
         </div>
-        <div style={{ textAlign:"center" }}>
-            Copyright&copy; {new Date().getFullYear()} All rights reserved
-        </div>
+      </div>
+
     </div>
-  )
+  );
 }
 
-export default ContactMe
+export default ContactMe;
+
+
