@@ -4,6 +4,7 @@ import memoryGame from '../images/portfolioImages/MemoryGame.gif'
 import shopProject from '../images/portfolioImages/Shop-Project.gif'
 import ongApi from '../images/portfolioImages/ONG-API.gif'
 import Henry2 from '../images/portfolioImages/Henry2.gif'
+import ProyectoFinal from '../images/portfolioImages/ProyectoFinal.gif'
 
 
 
@@ -49,5 +50,12 @@ export const portfolioLinks = [
         desc: "Road Accidents - CABA",
         summary: "This project involves analyzing data on homicides in traffic accidents in the City of Buenos Aires between 2016 and 2021. The goal is to provide insights for the implementation of preventive measures aimed at reducing fatalities in traffic accidents.",
         tech: "Phyton, Power Bi, MySQL, Pandas, Numpy, Seaborn, Matplot"
+    },
+    {
+        image: ProyectoFinal,
+        link: "https://github.com/ConsultoraAnalisisDeMercado",
+        desc: "Millennium Insights Data (MID)",
+        summary: "Final project of the Data Science bootcamp, focusing on addressing significant challenges related to large datasets. The main objectives included implementing automations for crucial tasks such as ETL (Extract, Transform, Load) and EDA (Exploratory Data Analysis), as well as creating machine learning models. This project showcased the team's ability to work efficiently with large volumes of data and deliver intelligent solutions to complex problems.",
+        tech: "Python, Power BI, GCP, Google BigQuery, Google Functions, Google Schedule, Google Storage, Google Colab, Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Textblob"
     }
 ]
