@@ -3,7 +3,7 @@ import mlops from '../images/portfolioImages/MLOps.gif'
 import memoryGame from '../images/portfolioImages/MemoryGame.gif'
 import shopProject from '../images/portfolioImages/Shop-Project.gif'
 import ongApi from '../images/portfolioImages/ONG-API.gif'
-import messi from '../images/portfolioImages/messiGif.gif'
+import Henry2 from '../images/portfolioImages/Henry2.gif'
 
 
 
@@ -42,5 +42,12 @@ export const portfolioLinks = [
         desc: "ONG - SOMOS MAS",
         summary: "Simplifying NGO management for a positive impact on society.",
         tech: "Spring Boot, MySQL Driver, Spring Data JPA, JWT, Mail Sender, AWS, JUnit, Mockito, Swagger"
+    },
+    {
+        image: Henry2,
+        link: "https://github.com/luifa04/PI_2_Data-Analysis",
+        desc: "Road Accidents - CABA",
+        summary: "This project involves analyzing data on homicides in traffic accidents in the City of Buenos Aires between 2016 and 2021. The goal is to provide insights for the implementation of preventive measures aimed at reducing fatalities in traffic accidents.",
+        tech: "Phyton, Power Bi, MySQL, Pandas, Numpy, Seaborn, Matplot"
     }
 ]
